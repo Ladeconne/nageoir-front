@@ -7,17 +7,15 @@
     </div>
   </div>
   <CardsContainer />
-  <Footer></Footer>
 </template>
 
 <script lang="ts">
 import CardsContainer from '@/components/CardsContainer.vue'
 import NavBar from '@/components/NavBar.vue'
 import SearchBar from '@/components/SearchBar.vue'
-import Footer from '@/components/FooterComponent.vue'
 
 export default {
-  components: { NavBar, SearchBar, CardsContainer, Footer },
+  components: { NavBar, SearchBar, CardsContainer },
   // setup() {
   //   // const count = ref(0)
   //   // function incrementCount() {
