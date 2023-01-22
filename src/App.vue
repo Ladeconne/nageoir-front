@@ -1,11 +1,11 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Home msg="Welcome to Your Vue.js + TypeScript App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <Home msg="Welcome to Your Vue.js + TypeScript App" />
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import Home from './views/Home.vue';
+import { Options, Vue } from 'vue-class-component'
+import Home from './views/HomePage.vue'
 
 @Options({
   components: {
